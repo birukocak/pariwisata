@@ -1,0 +1,40 @@
+body{
+    background-position: center;
+}
+
+nav{
+    background-color: darkcyan;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+}
+
+.utama{
+    max-height: 350px;
+    width: 99vw;
+}
+
+h1 {
+    color: #343a40;
+}
+
+img {
+    cursor: pointer;
+}
+
+.login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.login-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+.login-form {
+    max-width: 400px;
+    margin: auto;
+}
+
